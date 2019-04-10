@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  background-image: url(graphics/vapor.jpg);
+}
+.heading {
+	text-align:center;
+	color:white;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.column1 {
+  flex: 25%;
+  padding: 4px;
+	
+}
+a:link {
+  color: white; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
